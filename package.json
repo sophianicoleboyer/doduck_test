@@ -1,5 +1,5 @@
 {
-  "name": "doduck_test_tmp",
+  "name": "doduck_test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "next": "16.1.6",
+    "openai": "^6.27.0",
+    "pyodide": "^0.29.3",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
