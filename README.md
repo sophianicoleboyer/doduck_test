@@ -1,42 +1,36 @@
-# Doduck Test
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This project is a Next.js app with TypeScript that implements a two-panel UI for chat and code.
+## Getting Started
 
-## Setup Instructions
+First, run the development server:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sophianicoleboyer/doduck_test.git
-   cd doduck_test
-   ```
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-2. Install the dependencies:
-   ```bash
-   npm install
-   ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-3. Set your OpenAI API key in an `.env.local` file:
-   ```bash
-   OPENAI_API_KEY=your_api_key_here
-   ```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Project Architecture
+## Learn More
 
-- **/pages/api/chat**: API route for handling OpenAI requests.
-- **/components**: React components for the chat and code panels.
-- **/public**: Static assets.
-- **/styles**: Global styles for the application.
+To learn more about Next.js, take a look at the following resources:
 
-## Safety Notes
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- Ensure you do not expose your `OPENAI_API_KEY` publicly.
-- Implement rate limiting and other security measures in the API route to avoid abuse.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## License
+## Deploy on Vercel
 
-This project is licensed under the MIT License.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
